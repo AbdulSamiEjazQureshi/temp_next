@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #09090b;
+  --primary-text: #fafafa;
+}
+
+@theme inline {
+  --color-primary: var(--primary);
+  --color-primary-text: var(--primary-text);
+}
+
+body {
+  padding: 1rem;
+}
